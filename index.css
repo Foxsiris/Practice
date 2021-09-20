@@ -1,0 +1,21 @@
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+h1 {
+  color: orange;
+}
+
+div h1 {
+  color: red;
+}
+
+.wrapper .box {
+  width: 300px;
+  height: 300px;
+  border: 3px solid black;
+}
+
+/*# sourceMappingURL=index.css.map */

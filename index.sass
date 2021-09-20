@@ -1,0 +1,27 @@
+//Variable
+$orange: orange
+$red: red
+
+//templates
+%dis_flex
+  display: flex
+  flex-direction: row
+  gap: 10px
+
+//main code
+h1
+  color: $orange
+
+div
+  h1
+    color: $red
+
+.wrapper
+  @extend %dis_flex
+
+  .box
+    width: 300px
+    height: 300px
+    border: 3px solid black
+
+
